@@ -1,0 +1,114 @@
+/*debut de reset*/
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: sans-serif;
+        font: 1.6rem;
+        margin: 0;
+}
+
+h1,h2,h3,p,ul,ol,a,th,figure{
+    text-decoration: none;
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    font-weight: 400;
+}
+
+
+*{
+    box-sizing: border-box;
+}
+/*fin de reset*/
+header{
+    zoom: 70%;
+}
+header ul{
+    display: flex;
+    font-size: 2rem;
+    justify-content: right;
+    cursor: pointer;
+
+}
+header ul li{
+    margin: 1.5rem;
+
+}
+
+main{
+    margin: 10rem auto;
+    padding-bottom: 10rem;
+    text-align: center;
+    padding-top: 7rem;
+    max-height: 44rem;
+    max-width: 100rem;
+}
+
+main figure img{
+    max-width: 100%;
+}
+main .button:hover{
+    box-shadow: 0.1rem 0.1rem 0.5rem #aca8a8d0;
+    border:solid 0.1rem #cdcecf8c;
+}
+main  form .button{
+    border:solid 0.1rem #cecfd32a;
+    transition: all 0.6s ease-in-out;
+    border-radius: 0.4rem;
+    margin: 2rem 0.5rem;
+    cursor: pointer;
+    padding: 0.9rem 1.3rem;
+    background-color: #dfe0e0da;
+    color: rgb(8, 8, 8);
+    font-weight: 200;
+}
+
+main figure{
+    margin: 0 auto;
+    max-width: 95em;
+}
+
+main .search:hover{
+    box-shadow: 0.2rem 0.2rem 1rem #aca8a8d0;
+}
+
+main figure p{
+    font-size: small;
+}
+main form .recherche{
+    margin: 2rem auto;
+    width:60rem;
+    border:solid 0.2rem #d8d9dd;
+    border-radius: 2.7rem;
+    padding: 1.4rem;
+    
+}
+
+footer{
+    color: #4e4e4e;
+    background-color: #f2f2f2;
+    
+}
+footer section{
+    text-align: center;
+}
+footer section ul{
+    display: grid;
+    text-align: justify;
+    grid-template-columns: repeat(4, 2fr);
+    text-align: center;
+}
+
+footer ul li a{
+    color: #504f4f;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+footer ul li a:hover{
+    text-decoration: underline;
+}
+footer p{
+    font-size: 1.6rem;
+}
