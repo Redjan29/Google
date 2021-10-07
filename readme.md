@@ -1,5 +1,5 @@
-# ![Tux,the-linux-mascot](./asset/favicon-3232.png) projet portfolio développeur
-## comment appliquer les bonnes pratiques ?
+#  projet Google
+
 
 ### pour le code html
 ```html
@@ -50,4 +50,4 @@ h1,h2,h3,p,ul,ol,a,th,figure{
 
 *Versioning (Github)
 
-this is the *[page-web]
+this is the *[page-web]https://redjan29.github.io/Google/
